@@ -1,0 +1,21 @@
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+[alias]
+	s = status
+	a = add
+	c = commit
+	d = diff
+	b = branch
+	po = push origin
+	cb = checkout -b
+	l = log
+	bd = branch -d
+	t = tag
+	puo = push -u origin
+	pu = pull upstream
+[user]
+	name = Matt Coffin
+	email = mcoffin13@gmail.com
+[push]
+	default = current
